@@ -69,8 +69,8 @@
 
 .message{
 	flex-shrink: 0;
-	height: 9.5rem;
-	width: 22rem;
+	height: 12.5rem;
+	width: 25rem;
 	background-color: #ffffff;
 	border-radius: 0.5rem;
 	opacity:0.75;
@@ -89,6 +89,7 @@
 
 .time p{
 	color: #888888;
+	font-size: 1.2rem;
 }
 
 .icon_1{
@@ -106,6 +107,7 @@
 .icon_1 p{
 	color: #353535;
 	margin-left: 0.8rem;
+	font-size: 1.2rem;
 }
 
 .icon_1 img{
@@ -116,6 +118,7 @@
 .icon_2 p{
 	color: #353535;
 	margin-left: 0.8rem;
+	font-size: 1.2rem;
 }
 
 .icon_2 img{

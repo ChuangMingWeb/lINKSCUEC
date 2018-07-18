@@ -1,3 +1,5 @@
+
+
 //获取get参数
 function GetRequest() {
     var url = location.search;
@@ -60,7 +62,7 @@ function bubbleSort_1(arr){
 function bubbleSort_2(arr){
       for(var i=0;i<arr.length-1;i++){
           for(var j=0;j<arr.length-i-1;j++){
-              if(arr[j].credit<arr[j+1].credit){
+              if(arr[j].creditStar<arr[j+1].creditStar){
                   var temp=arr[j];
                   arr[j]=arr[j+1];
                   arr[j+1]=temp;
@@ -140,7 +142,7 @@ function ChangeCss_2(){
 }
 
 
-$(".message").bind('click',function(){
+$(".contain").on('click',".message",function(){
 	var ID = $(this).attr('id');	
 	console.log(ID)
 	var startTime=obj[ID].startTime;
