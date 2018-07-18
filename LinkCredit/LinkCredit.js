@@ -1,5 +1,4 @@
 
-
 var obj = (function() {
     var result;
     $.ajax({
