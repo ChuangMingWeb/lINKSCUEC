@@ -1,0 +1,148 @@
+.header{
+	width: 100%;
+	height: 8.66%;
+	background-color: #ffffff;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.header img{
+	height: 1.5rem;
+	width: 1.5rem;
+}
+
+.header p{
+	font-weight: bold;
+	color: #353535;
+	font-size: 1.5rem;
+}
+
+#blank{
+	width: 1.5rem;
+    height: 1.5rem;
+}
+
+.menu{
+	background-color: #ffffff;
+	height: 8%;
+	opacity:0.6;
+	display: flex;
+	align-items: center;
+}
+
+#FirstPrice{
+	flex-grow: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#FirstCredit{
+	flex-grow: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.menu p{
+	z-index: 2;
+	flex-grow: 1;
+	text-align: center;
+}
+
+.menu img{
+	display: none;
+	position: absolute;
+	z-index: 1;
+	margin-top: 0.5rem;
+	margin-left: 1rem;
+}
+
+.contain{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.message{
+	flex-shrink: 0;
+	height: 9.5rem;
+	width: 22rem;
+	background-color: #ffffff;
+	border-radius: 0.5rem;
+	opacity:0.75;
+	margin-top: 1rem;
+}
+
+.detail{
+	display: flex;
+	margin-left: 1rem;
+	margin-top: 1rem;
+}
+
+.time{
+	margin-left: 2rem;
+}
+
+.time p{
+	color: #888888;
+}
+
+.icon_1{
+	display: flex;
+	align-items: center;
+	margin-bottom: 0.7rem;
+}
+
+.icon_2{
+	display: flex;
+	align-items: center;
+	margin-bottom: 0.7rem;
+}
+
+.icon_1 p{
+	color: #353535;
+	margin-left: 0.8rem;
+}
+
+.icon_1 img{
+	width: 1.2rem;
+	height: 1.2rem;
+}
+
+.icon_2 p{
+	color: #353535;
+	margin-left: 0.8rem;
+}
+
+.icon_2 img{
+	width: 1.2rem;
+	height: 1.2rem;
+}
+
+.cost{
+	height: 40%;
+	display: flex;
+	align-items: center;
+}
+
+.cost p{
+	flex-grow: 1;
+	text-align: center;
+}
+
+.alltime{
+	font-size: 1.5rem;
+	color: #000000;
+	font-weight: bold;
+}
+
+.price{
+	font-size: 1.5rem;
+	color: #992020;
+	font-weight: bold;
+}
+

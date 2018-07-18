@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewpoint" content="width=divice-width" initial-scale=1 user-scalable=no>
+	<link rel="stylesheet" href="./LinkLendNone.css?rd=<%=Math.random()%" type="text/css">
+	<script src="../jquery-3.3.1.min.js"></script>
+	<title>未租出</title>
+</head>
+<body>
+<div class="wrapper">
+	<div class="nav">
+		 <div class="borrow" id="lend" onclick="backcon()"><a href="">我借用的</a></div>
+			<div class="borrow" id="rent"><a href=""><p style="font-weight:bold">我出租的</p></a></div>
+			<div class="wire2"></div>
+	</div>
+<div class="main">
+	<div class="p1">出租信息</div>
+	<div class="box">
+		<div class="bigbox1">
+			<div class="smallbox1">
+			未出租
+			</div>
+			<a href="../LinkLend/LinkLendModify.html">
+			<input type="text" name="not leased" class="modify" value="修改出租信息" >
+		</a>
+		</div>
+	</div>
+<div class="p1">出租时段</div>
+<div class="box">
+<div class="bigbox2">
+	<div class="smallbox2">
+		<img src="../image/start.png">
+	</div>
+<input class="qfdate" id="startTime" type="text" name="begin" value="2018/01/01 12:00">
+</div>
+</div>
+<div class="box">
+<div class="bigbox2">
+	<div class="smallbox3">
+		<img src="../image/finish.png">
+	</div>
+<input class="qfdate" id="overTime" type="text" name="finish" value="2018/01/01 12:00">
+</div>
+</div>
+<span>
+<div class="p2">合计： 
+</div>
+<input type="text" id="allTime" value="" >  
+</span>
+<div class="p3">出租此校园网
+	
+<div id="rent">
+	<div id="_rent">
+<img onclick="changestatus()" src="../image/open.png">
+</div>
+</div>
+
+</div>
+</div>
+<div class="footer">
+			<div class="leftfoot">
+				<img src="../image/home2.png">
+				<p>首页</p>
+			</div>
+			<div class="myhome" >
+				<img src="../image/my2.png">
+				<p>我的</p>
+			</div>
+</div>
+</div>
+
+</body>
+</html>
+<script src="../LinkLendStatus/LinkLendNone.js"></script>

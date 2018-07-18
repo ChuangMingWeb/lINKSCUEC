@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewpoint" content="width=divice-width" initial-scale=1 user-scalable=no>
+	<link rel="stylesheet" href="./LinkLendModify.css" type="text/css">
+	<script src="../jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="./shijianzhou.js"></script>
+	<script type="text/javascript" src="./LinkLendModify.js"></script>	
+	<title>修改出租信息</title>
+</head>
+<body>
+	<div class="wrapper">
+		<div class="nav">
+			<span>
+				<p style="text-align: center;">修改出租信息</p>
+			</span>
+		</div>
+		<div class="main">
+			<div class="p1">账号密码</div>
+			<div class="box"> 
+				<input type="text" name="xuehao" id="name" class="input1" placeholder="学号">
+			</div>
+			<div class="box">
+				<input type="password" name="mima" id="password" class="input2" placeholder="密码">
+			</div>
+			<div class="p1">出租时段</div>
+			<div class="box">
+				<div class="bigbox">
+					<div class="smallbox1">
+						<img src="../image/start.png" >
+					</div>
+					<input class="qfdate" id="startTime" type="text" name="begin" value="2018/01/01 8:00">
+				</div>
+			</div>
+			<div class="box">
+				<div class="bigbox">
+					<div class="smallbox2">
+						<img src="../image/finish.png">
+					</div>
+					<input class="qfdate" id="overTime" type="text" name="finish" value="2018/01/01 8:00">	
+				</div>
+			</div>
+			<span>
+				<div class="p2">合计： 
+				</div>
+				<input type="text" id="allTime" value="" >  
+			</span>
+				<div class="p1">费用</div>
+				<div class="box">
+					<div class="bigbox">
+						<div class="smallbox3">
+							每小时
+						</div>
+						<input type="text" name="feiyong" id="price"  value="元">
+					</div>
+				</div>
+				<div class="box">
+					<input type="checkbox" name="uLevel" value="2" checked="checked" style="width:3rem;
+					height: 3rem;border-radius: 5rem;">
+					阅读并同意使用条例
+				</div> 
+				<div onclick="check()"id="button">
+					保存
+					</div>
+				</div>
+			</div>
+	<script src="./time.js"></script>
+		
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewpoint" content="width=divice-width" initial-scale=1 user-scalable=no>
+	<link rel="stylesheet" href="./LinkRentDeterTime.css?rd=<%=Math.random()%" type="text/css">
+	<script src="../jquery-3.3.1.min.js"></script>
+	<script src="./LinkRentDeterTime.js"></script>
+	<script type="text/javascript" src="./De.js"></script>
+	<title>选择时间段</title>
+</head>
+<body>
+	<div class="wrapper">
+<div class="nav">
+<span>
+		<p style="text-align: center;">选择使用时间段</p>
+	</span>
+</div>
+<div class="main">
+<div id="bigbox">
+<div class="p1">租用时段</div>
+<div class="middlebox">
+<div class="p2">起始时间</div>
+<input class="qfdate" id="startTime" type="text" name="begin" value="2018/01/01 8:00">
+<div class="p3">结束时间</div>
+<input class="qfdate" id="overTime" type="text" name="finish" value="2018/01/01 8:00">
+<div class="p4">合计：
+</div>
+<input type="text" id="allTime" value="" >  
+</div>
+<div class="p5">费用</div>
+<div class="smallbox">
+	<div class="p7">合计</div>
+	<input type="text" id="price" value="" >
+</div>
+
+<div onclick="clickfut()" id="button">租用</div>
+
+</div>
+</div>
+</div>
+</body>
+</html>

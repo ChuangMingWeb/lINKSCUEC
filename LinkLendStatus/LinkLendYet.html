@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewpoint" content="width=divice-width" initial-scale=1 user-scalable=no>
+	<link rel="stylesheet" href="./LinkLendYet.css?rd=<%=Math.random()%" type="text/css">
+	<script src="../jquery-3.3.1.min.js"></script>
+	<script src="./LinkLendYet.js"></script>
+	<title>已租出</title>
+</head>
+<body>
+<div class="wrapper">
+	<div class="nav">
+		 <div class="borrow" onclick="backcon()" id="lend"><a href="">我借用的</a></div>
+			<div class="borrow" id="rent"><a href=""><p style="font-weight:bold">我出租的</p></a></div>
+			<div class="wire2"></div>
+	</div>
+<div class="main">
+	<div class="p1">出租信息</div>
+	<div class="box">
+		<div class="bigbox1">
+			<div class="smallbox1">
+			已出租
+			</div>
+			<a href="../LinkLendDetails/LinkLendDetails.html">
+			<input type="text" name="not leased" class="modify" value="租出详情" >
+		</a>
+		</div>
+	</div>
+<div class="p1">出租时段</div>
+<div class="box">
+<div class="bigbox2">
+	<div class="smallbox2">
+		<img src="../image/start.png">
+	</div>
+<input class="shijian" id="startTime" type="text" name="begin" value="2018/01/01 8:00">
+</div>
+</div>
+<div class="box">
+<div class="bigbox2">
+	<div class="smallbox3">
+		<img src="../image/finish.png">
+	</div>
+<input class="shijian" id="overTime" type="text" name="finish" value="2018/01/01 8:00">
+</div>
+</div>
+<span>
+<div class="p2">
+合计： 
+</div>
+<input type="text" id="allTime" value="" >  
+</span>
+
+
+</div>
+<div class="footer">
+			<div class="leftfoot">
+				<img src="../image/home2.png">
+				<p>首页</p>
+			</div>
+			<div class="myhome" >
+				<img src="../image/my2.png">
+				<p>我的</p>
+			</div>
+</div>
+</div>
+</body>
+</html>
