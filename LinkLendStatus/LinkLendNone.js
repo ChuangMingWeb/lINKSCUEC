@@ -1,13 +1,3 @@
-// $.ajax({
-// 		type:'post',
-// 		datatype:'json',
-//     	url:'../ceshi.php', 
-//     	success:function(result){ 
-//     		result = JSON.parse(result);
-//     		$("#startTime").val(result["startTime"]);
-//     		$("#overTime").val(result["overTime"]);
-//     		$("#allTime").val(result["allTime"]);
-//     });
 function backcon(){
     alert("1");
 	$.ajax({
@@ -116,5 +106,16 @@ this.console.log(overTime);
 
 document.getElementById('startTime').value = startTime;
 document.getElementById('overTime').value = overTime;
+var  date1 = new Date(  document.getElementById("startTime").value);
+var date2 = new Date(   document.getElementById("overTime").value);
+var date3=new Date(date2)-new Date(date1);
+            // console.log(date3);
+            var days=Math.floor(date3/(24*3600*1000));  
+            var leave1=date3%(24*3600*1000);    //计算天数后剩余的毫秒数  
+            var hours=Math.floor(leave1/(3600*1000)); 
+            var date=days+"天"+hours+"小时";
+            document.getElementById("allTime").value=date;
+
+
 }
 

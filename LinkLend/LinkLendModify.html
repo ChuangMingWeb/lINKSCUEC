@@ -4,6 +4,8 @@
 	<meta charset="UTF-8">
 	<meta name="viewpoint" content="width=divice-width" initial-scale=1 user-scalable=no>
 	<link rel="stylesheet" href="./LinkLendModify.css" type="text/css">
+		<linl rel="stylesheet" href="../main.css" type="text/css">
+	<script type="text/javascript" src="../main.js"></script>
 	<script src="../jquery-3.3.1.min.js"></script>
 	<script type="text/javascript" src="./shijianzhou.js"></script>
 	<script type="text/javascript" src="./LinkLendModify.js"></script>	
@@ -11,6 +13,9 @@
 </head>
 <body>
 	<div class="wrapper">
+		<div id="return" onclick="window.location.href='../LinkLendStatus/LinkLendNone.html'">
+				<img src="../image/return.png">
+			</div>
 		<div class="nav">
 			<span>
 				<p style="text-align: center;">修改出租信息</p>
@@ -52,12 +57,13 @@
 						<div class="smallbox3">
 							每小时
 						</div>
-						<input type="text" name="feiyong" id="price"  value="元">
+							<div class="p4">元</div>
+		<input type="text" name="feiyong"  id="price"  value="">
 					</div>
 				</div>
 				<div class="box">
-					<input type="checkbox" name="uLevel" value="2" checked="checked" style="width:3rem;
-					height: 3rem;border-radius: 5rem;">
+					<input type="checkbox" id="accept" name="uLevel" value="2" checked="checked" style="width:1rem;
+					height: 1rem;border-radius: 5rem;">
 					阅读并同意使用条例
 				</div> 
 				<div onclick="check()"id="button">

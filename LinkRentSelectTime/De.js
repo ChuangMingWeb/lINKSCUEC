@@ -1,16 +1,16 @@
- (function (doc, win, undefined) {
-     var docEl = doc.documentElement,
-     resizeEvt = 'orientationchange' in win? 'orientationchange' : 'resize',
-    recalc = function () {
-         var clientWidth = docEl.clientWidth;
-         if (clientWidth === undefined) return;
-         docEl.style.fontSize = 10 * (clientWidth / 1080) + 'px';
-     };
-     if (doc.addEventListener === undefined) 
-     return;
-           win.addEventListener(resizeEvt, recalc, false);
-            doc.addEventListener('DOMContentLoaded', recalc, false)
- })(document, window);
+ // (function (doc, win, undefined) {
+ //     var docEl = doc.documentElement,
+ //     resizeEvt = 'orientationchange' in win? 'orientationchange' : 'resize',
+ //    recalc = function () {
+ //         var clientWidth = docEl.clientWidth;
+ //         if (clientWidth === undefined) return;
+ //         docEl.style.fontSize = 10 * (clientWidth / 1080) + 'px';
+ //     };
+ //     if (doc.addEventListener === undefined) 
+ //     return;
+ //           win.addEventListener(resizeEvt, recalc, false);
+ //            doc.addEventListener('DOMContentLoaded', recalc, false)
+ // })(document, window);
 
 $(function(){
     new QfDate().init();
@@ -132,6 +132,7 @@ function QfDate(){
       var now=new Date();
         var nowY=now.getFullYear();
         var nowM=now.getMonth();
+
         var nowD=now.getDate()-1;
         var nowH=now.getHours();
         // var nowMi=now.getMinutes();
@@ -157,13 +158,17 @@ function QfDate(){
           mData[i]="0"+mData[i];
          }
          };
+        
+
         qfdateMonthScroll.setData(mData,nowM);
         for (var i = 0; i < 31; i++) {
             dData[i]=i+1;
+         
           if(dData[i]>=1&&dData[i]<=9){
           dData[i]="0"+dData[i];
          }
          };
+
         qfdateDayScroll.setData(dData,nowD);
         for (var i = 0; i < 24; i++) {
             hData[i]=i;

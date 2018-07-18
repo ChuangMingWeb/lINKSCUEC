@@ -1,23 +1,7 @@
 window.onload=function(){
-     
-     (function (doc, win, undefined) {
-         var docEl = doc.documentElement,
-         resizeEvt = 'orientationchange' in win? 'orientationchange' : 'resize',
-        recalc = function () {
-             var clientWidth = docEl.clientWidth;
-             if (clientWidth === undefined) return;
-             docEl.style.fontSize = 10 * (clientWidth / 1080) + 'px';
-         };
-         if (doc.addEventListener === undefined) 
-         return;
-               win.addEventListener(resizeEvt, recalc, false);
-                doc.addEventListener('DOMContentLoaded', recalc, false)
-     })(document, window);
-    
     $(function(){
         new QfDate().init();
     });
-    
     function QfDate(){
       var _this=this;
       var qfdateMain,qfdateMask,qfdateCancelBtn,qfdateOkBtn,qfdateYearScroll,qfdateMonthScroll,qfdateDayScroll,qfdateHoursScroll;

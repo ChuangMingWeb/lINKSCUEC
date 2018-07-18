@@ -1,16 +1,6 @@
-html{
-	 font-size: 10px;
-}
-.wrapper{
-	height: 1732px;
-	width:100%;
-	display: flex;
-	flex-direction: column;
-	margin:auto;
-}
 .nav{
 	display: flex;
-	height: 8.66%;
+	height: 6%;
 	width: 100%;
 	background-color: #ffffff;
 	align-items: center;
@@ -18,7 +8,7 @@ html{
 .borrow a{
 	flex-grow: 1;
 	text-decoration: none;
-	font-size: 4rem;
+	font-size: 1rem;
 	color: #353535;
 }
 .borrow{
@@ -28,44 +18,42 @@ html{
 	align-items:center;
 	text-align: center;
 	flex:auto;
-	border-bottom: 0.8rem solid #b8d5f2;
+	/*border-bottom: 0.2rem solid #b8d5f2;*/
 }
 .wire1{
 	position: absolute;
-	width: 32rem;
-	height: 0.8rem;
+	width: 10rem;
+	height: 0.3rem;
 	background-color: #b8d5f2;
-	top: 14.4rem;
-	left: 10.8rem;
+	top: 3rem;
+	left: 1.6rem;
 }
 .wire2{
 	position: absolute;
-	width: 32rem;
-	height: 0.8rem;
+	width: 10rem;
+	height: 0.3rem;
 	background-color: #b8d5f2;
-	top: 12.5rem;
-	left:66rem;
+	top: 3rem;
+	right: 3.5rem;
 }
 .main{
-	/*background-color: #d4e3eb;
-	display: flex;
-	width:100%;
-	height: 82.68%;
-	flex-direction: column;*/
 	background-color: #d4e3eb;
 	display: flex;
+		/*justify-content:center;*/
+	/*align-items:center;*/
 	flex-direction: column;
 	width: 100%;
-	height: 100%;
-	margin-bottom: -14rem;
-    padding-bottom: 14rem;
+	height: 85%;
+/*	margin-bottom: -14rem;
+    padding-bottom: 14rem;*/
 }
 .p1{
-	font-size:4.8rem; 
+	font-size:1rem; 
 	color:#666;
-	height:5%;
+	/*height:5%;*/
 	margin-left: 10%;
-	margin-top: 8%;
+	padding-bottom: 2%;
+	margin-top: 6%;
 }
 .box{
 	margin-left: 10%;
@@ -74,19 +62,19 @@ html{
 	height: 10%;
 	width: 80%;
 	display: flex;
-	font-size: 3rem;
+	font-size: 1rem;
 	font-color:#000;
 } 
 .bigbox1{
-	border-radius:4rem;
-	height: 80%;
+	border-radius:1rem;
+	height: 65%;
 	width: 100%;
 	background-color: #FFF;
 }
 .smallbox1{
 	height: 100%;
 	width: 15%;
-	font-size:4rem;
+	font-size:1rem;
 	font-color:#333;
 	font-weight: bold;
 	margin-left:5%;
@@ -100,25 +88,25 @@ html{
     background:url(../image/right.png)no-repeat right center;
     border:none;
     float: right;
-   	border-radius:4rem;
-	font-size:4rem;
+   	border-radius:1rem;
+	font-size:1rem;
 	font-weight: bold;
-	height: 100%;
+	height: 97%;
 	width:70%;
 	margin:0 auto;
 	background-color: #FFF;
 	justify-content: center;
 	align-items: center;
 	display: flex;
+	background-size:2rem 2rem;
 }
-
 .qfdate{
 	/*float: right;*/
  	/*border:#FFF;*/
     /*background:url(../image/down.png)no-repeat right center;*/
     border:none;
-   	border-radius:4rem;
-	font-size:4rem;
+   	border-radius:1rem;
+	font-size:1rem;
 	font-color: #353535;
 	height: 100%;
 	width:80%;
@@ -129,7 +117,7 @@ html{
 	text-align: center;
 }
 .bigbox2{
-	border-radius:4rem;
+	border-radius:1rem;
 	height: 60%;
 	width: 100%;
 	background-color: #FFF;
@@ -143,8 +131,8 @@ html{
 	float: left;
 }
 .smallbox2 img{
-	height: 6rem;
-	width: 6rem;
+	height: 1.5rem;
+	width: 1.5rem;
 }
 .smallbox3{
 	height: 100%;
@@ -155,11 +143,11 @@ html{
 	display: flex;
 }
 .smallbox3 img{
-	height: 6rem;
-	width: 6rem;
+	height: 1.5rem;
+	width: 1.5rem;
 }
 .p2{
-	font-size:4.0rem;
+	font-size:1rem;
 	font-weight: bold;
 	height:5%;
 	margin-left: 53%;
@@ -167,7 +155,7 @@ html{
 	margin-top:-3%;
 }
 #allTime{
-	font-size:4.0rem;
+	font-size:1rem;
 	border:none;
 	background-color: #d4e3eb;
 	font-weight: bold;
@@ -178,7 +166,7 @@ html{
 	margin-top:-5%;
 }
 .p3{
-	font-size:5rem; 
+	font-size:1.5rem; 
 	color:#353535;
 	height:5%;
 	margin-left: 10%;
@@ -187,16 +175,16 @@ html{
 #rent{
 	margin-right:10%;
 	float: right;
-	margin-top:-2rem;
+	margin-top:-0.5rem;
 	
 }
 #rent img{
-	width:10rem; 
-	height:10rem;
+	width:3rem; 
+	height:3rem;
 }
 .footer{
 	border-top: 2px solid #b8d5f2;
-	height: 16rem;
+	height: 6%;
 	background-color: #ffffff;
 	display: flex;
 
@@ -204,34 +192,34 @@ html{
 .leftfoot{
 	flex-grow: 1;
 	display: flex;
-	margin-top: 3rem;
+	margin-top: 2rem;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 }
 .leftfoot img{
-	height: 7rem;
-	width: 7rem;
+	height: 2rem;
+	width: 2rem;
 }
 .leftfoot p{
 	margin-top: 0px;
-	font-size: 3rem;
+	font-size: 1rem;
 	color: #666666;
 }
 .myhome{
 	flex-grow: 1;
 	display: flex;
-	margin-top: 3rem;
+	margin-top: 2rem;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 }
 .myhome img{
-	height: 7rem;
-	width: 7rem;
+	height: 2rem;
+	width: 2rem;
 }
 .myhome p{
-	font-size: 3rem;
+	font-size: 1rem;
 	margin-top: 0px;
 	color: #666666;
 }
