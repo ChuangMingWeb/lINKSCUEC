@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewpoint" content="width=divice-width" initial-scale=1 user-scalable=no>
+	<link rel="stylesheet" href="./LinkRentDeterTime.css?rd=<%=Math.random()%" type="text/css">
+	<linl rel="stylesheet" href="../main.css" type="text/css">
+	<script type="text/javascript" src="../main.js"></script>
+	<script src="../jquery-3.3.1.min.js"></script>
+	<script src="./LinkRentDeterTime.js"></script>
+	<script type="text/javascript" src="./De.js"></script>
+	<title>选择时间段</title>
+</head>
+<body>
+	<div class="wrapper">
+		<!-- <div id="return" onclick="window.location.href='../LinkRentShow/LinkRentShow.html'">
+		<img src="../image/return.png">
+		</div>
+<div class="nav">
+<span>
+		<p style="text-align: center;">选择使用时间段</p>
+	</span>
+</div> -->
+<div class="main">
+<div id="bigbox">
+<div class="p1">租用时段</div>
+<div class="middlebox">
+<div class="p2">起始时间</div>
+<input class="qfdate" id="startTime" type="text" name="begin" value="">
+<div class="p3">结束时间</div>
+<input class="qfdate" id="overTime" type="text" name="finish" value="" style="margin-bottom:7%; ">
+<div class="p6">
+<input type="text" id="allTime" readonly="readonly" value="" >  
+<div class="p4">合计：
+</div>
+</div>
+</div>
+<div class="p5">费用</div>
+<div class="smallbox">
+	<div class="p7">合计</div>
+	<input type="text" id="price" readonly="readonly" value="" >
+</div>
+
+<div onclick="clickfut()" id="button">租用</div>
+
+</div>
+</div>
+</div>
+</body>
+</html>

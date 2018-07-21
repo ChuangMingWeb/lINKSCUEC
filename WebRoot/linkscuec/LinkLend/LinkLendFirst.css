@@ -1,0 +1,239 @@
+.nav{
+	/*background:url(../image/return.png)no-repeat left center;*/
+	background-color: #FFF;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	height: 8%;
+	line-height: 8%;
+	font-size:2rem;
+}
+#return{
+	float:left;
+	height: 7%;
+	line-height: 7%;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+.main{
+	background-color: #d4e3eb;
+	display: flex;
+	width:100%;
+	height:100%;
+	flex-direction: column;
+}
+.p1{
+	font-size:1.5rem; 
+	color:#666;
+	height:5%;
+	margin-left: 10%;
+	margin-top: 3%;
+}
+.box{
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom: 0%;
+	height: 10%;
+	width: 80%;
+	display: flex;
+	font-size: 1rem;
+	font-color:#000;
+} 
+.img{
+	 width: 2rem; 
+	 height: 2rem;
+	  flex-wrap: wrap;
+	  margin-left: 1rem;
+}
+.input1{
+	background:url(../image/account.png)no-repeat left center;
+	border-radius:4rem;
+	font-size:1rem;
+	font-color: #353535;
+	height: 60%;
+	width:100%;
+	margin:0 auto;
+	background-color: #FFF;
+	/* display: flex; */
+	/* align-items: center; */	
+	text-align: center;
+	background-size:2.5rem 2.5rem;
+}
+.input2{
+	background:url(../image/password.png)no-repeat left center;
+	border-radius:4rem;
+	font-size:1rem;
+	font-color: #353535;
+	height: 60%;/* 为什么是相对于父元素的呢*/
+	width: 100%;
+	margin:0 auto;
+	background-color: #FFF;
+	text-align: center;
+	background-size:2.5rem 2.5rem;
+}
+li{
+	list-style: none;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+	/*float: left;*/
+	/*margin-left: : 10%;
+	margin-right: 10%;
+	height: 60%;
+	width:100%;*/
+	/*height: 0%;
+	width:100%;*/
+	/*display: flex;*/
+} 
+.bigbox{
+	border-radius:4rem;
+	height: 60%;
+	width: 100%;
+	background-color: #FFF;
+	display:inline;
+}
+.smallbox1{
+	height: 100%;
+	width: 15%;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	float: left;
+	/*margin:1rem;*/
+	/*justify-content: center;
+	align-items: center;
+	display: flex;*/
+	/*background-size: 8rem 8rem;*/
+}
+.smallbox1 img{
+	height: 2rem;
+	width: 2rem;
+}
+.smallbox2{
+	height: 100%;
+	width: 15%;
+	
+	float: left;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+.smallbox2 img{
+	height: 2rem;
+	width: 2rem;
+}
+.qfdate{
+	/*float: right;*/
+ 	/*border:#FFF;*/
+    background:url(../image/down.png)no-repeat right center;
+    border:none;
+   	border-radius:4rem;
+	font-size:1rem;
+	font-color: #353535;
+	height: 100%;
+	width:80%;
+	margin:0 auto;
+	background-color: #FFF;
+	 display: flex; 
+	 align-items: center; 	
+	text-align: center;
+	background-size:2.5rem 2.5rem;
+}
+.p2{
+	font-size:1.2rem;
+	font-weight: bold;
+	float:right;
+	display: flex;
+}
+.p3{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	display:inline;
+	/*justify-content: right;*/
+	align-items: center;
+}
+#allTime{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align:right;
+	font-size:1.2rem;
+	border:none;
+	font-weight: bold;
+	width:22%;
+	float:right;
+	margin-right: 12%;
+	background-color: #d4e3eb;
+	border:none;
+}
+.smallbox3{
+	height: 100%;
+	width: 25%;
+	font-size:1rem;
+	font-color:#333;
+	margin-left:1%;
+	float: left;
+	/*justify-content: center;*/
+	align-items: center;
+	display: flex;
+}
+.p4{
+	font-size:1rem;
+	font-color:#333;
+	/*justify-content: center;*/
+	margin-right: 35%;
+	height: 95%;
+	line-height: 95%;
+	align-items: center;
+	display: flex;
+	float:  right;
+}
+#price{
+    /*background:url(../imgs/down.png)no-repeat right center;*/
+    border:none;
+    float: right;
+   	border-radius:4rem;
+	font-size:1rem;
+	font-color: #353535;
+	height: 95%;
+	width:20%;
+	text-align: right;
+	float: right;	/*margin:0 auto;*/
+	/*margin-right: 30rem;*/
+	background-color: #FFF;
+	justify-content: center;
+	align-items: center;
+	display: flex;	
+}
+
+#button{
+	margin:0 auto;
+	display: flex;
+ 	color:#FFF;
+	font-size:1.5rem;
+	text-decoration:none;
+ 	border-radius: 1rem;
+   	justify-content: center;
+	align-items: center;
+    width: 50%;
+    height: 6%;
+	background-image: url(../image/buttonbg.png);
+}
+#button a{
+	margin:0 auto;
+	display: flex;
+ 	color:#FFF;
+ 	border-radius: 1rem;
+	font-size:1.5rem;
+	text-decoration:none;
+   	justify-content: center;
+	align-items: center;
+    width: 50%;
+    height: 6%;
+	background-image: url(../image/buttonbg.png);
+}
+
+
