@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>首页未连接</title>
+	<meta charset="utf-8">
+	<meta name="viewpoint" content="width=divice-width" initial-scale=1 user-scalable=no >
+	<script src="../jquery-3.3.1.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="../main.css">
+	<link rel="stylesheet" type="text/css" href="./LinkRent.css">
+	<script src="../main.js" ></script>
+	<script src="./LinkRent.js"></script>
+	
+</head>
+<body>
+	<div class="wrapper">
+		<div class="header">
+			<div class="borrow" id="lend " onclick="refresh()">我借用的</div>
+			<div class="wire1"></div>
+			<div  class="borrow" id="rent" onclick="tosearch()">我出租的</div>
+			<!-- <div class="wire2"></div> -->
+		</div>
+		<div class="contain" id="contain">
+			<!------------ 未连接 -------------->
+			<!-- <div id="click">
+				<img src="../image/planet2.png" id="ban">
+				<img src="../image/click.png" id="text">
+				<p>租用中</p>
+			</div> -->
+			<!------------ 已连接 -------------->
+			<!-- <div id="click">
+				<img src="../image/planet3.png" id="ban">
+				<img src="../image/connecting.png" id="text">
+				<p>租用中</p>
+				<p style="font-size: 1rem;color:#000000;margin-top: 0.5rem ">剩余：1小时11分钟</p>
+			</div> -->
+			<!------------ 未租用 -------------->
+			<!-- <div id="click">
+				<img src="../image/planet-1.png" id="ban">
+				<img src="../image/rent.png" id="text">
+				<p>暂未借用账号</p>
+			</div> -->
+			<!-- <div class="time">
+				<p>租用时间段</p>
+				<p>2018/10/10-10:00</p>
+				<p>2018/10/10-10:00</p>
+			</div> -->
+		</div>
+		
+		<div class="footer">
+			<div class="onepage">
+				<img src="../image/home.png">
+				<p style="color: #4483b3">首页</p>
+			</div>
+			<div class="myhome"  id="myhome" onclick="window.open('../LinkHome/LinkHome.html','_self');" >
+				<img  src="../image/my2.png">
+				<p>我的</p>
+			</div>
+		</div>
+	</div>
+	<div id="hideconnect"></div>
+	
+</body>
+</html>

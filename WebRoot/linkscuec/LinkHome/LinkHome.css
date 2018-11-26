@@ -1,0 +1,151 @@
+.wrapper{
+	height: 1732px;
+	width: 100%;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+}
+
+.contain{
+	width: 100%;
+	min-height: 100%;
+	margin-bottom: -3.5rem;
+    padding-bottom: 3.5rem;
+    box-sizing: border-box;
+    flex:1;
+    overflow: scroll;
+}
+
+#personal{
+	height: 70%;
+}
+
+#back{
+	width: 100%;
+	height: 77%;
+	display:block;
+	background-image: url(../image/people.jpg);
+	background-size: cover;
+/*	background-color: yellow;*/
+}
+
+#message{
+	width: 100%;
+	height: 23%;
+	background-color: #ffffff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	line-height: 1.5rem;
+}
+
+#name{
+	font-size: 1.25rem;
+	color: #353535;
+}
+
+#ID{
+	font-size: 1rem;
+	color: #666666;
+}
+
+#credit{
+	display: flex;
+	background-color: #ffffff;
+	width: 100%;
+	margin-top: 1.2rem;
+	height: 9%;
+	align-items: center;
+	/*justify-content: space-around;*/
+}
+
+#credit img{
+	height: 1.25rem;
+	width: 1.25rem;
+}
+
+#credit ul{
+	margin-left: 2.5rem;
+	flex-grow: 3;
+}
+
+#credit ul li{
+	float: left;
+}
+
+.icon{
+	display: flex;
+	margin-left: 1rem;
+}
+
+.icon img{
+	height: 1.25rem;
+	width: 1.25rem;
+	margin-right: 0.5rem;
+}
+
+#icon p{
+	color: #353535;
+	font-size: 1.25rem;
+}
+
+#exit{
+
+	display: flex;
+	background-color: #ffffff;
+	width: 100%;
+	margin-top: 1.2rem;
+	height: 9%;
+	align-items: center;
+}
+
+#exit img{
+	height: 1.25rem;
+	width: 1.25rem;
+}
+
+.footer{
+	z-index: 99;
+	border-top: 2px solid #b8d5f2;
+	height: 3.5rem;
+	background-color: #ffffff;
+	display: flex;
+}
+
+.onepage{
+	flex-grow: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.onepage img{
+	height: 1.2rem;
+	width: 1.2rem;
+}
+
+.onepage p{
+	font-size: 0.75rem;
+	color: #666666;
+}
+
+.myhome{
+	flex-grow: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.myhome img{
+	height: 1.2rem;
+	width: 1.2rem;
+}
+
+.myhome p{
+	font-size: 0.75rem;
+	color: #666666;
+}
